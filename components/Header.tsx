@@ -1,12 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import { usePathname } from "next/navigation";
+
 import { ShoppingBag } from "lucide-react";
 import Link from "next/link";
 import MegaMenu from "./MegaMenu";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
+
+  const pathname = usePathname();
 
   return (
     <header
