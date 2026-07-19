@@ -6,7 +6,6 @@ import Trending from "@/components/Trending";
 export default function Home() {
   return (
     <main >
-      <Header></Header>
       <Hero></Hero>
       <Trending></Trending>
       <Spotlight></Spotlight>
