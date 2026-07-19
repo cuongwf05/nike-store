@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Spotlight from "@/components/Spotlight";
 import Trending from "@/components/Trending";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header></Header>
       <Hero></Hero>
       <Trending></Trending>
+      <Spotlight></Spotlight>
     </main>
   );
 }
