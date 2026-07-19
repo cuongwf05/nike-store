@@ -18,7 +18,7 @@ export default function Header() {
                         </li>
 
                         <li>
-                            <Link href="/lookbook" className="font-bold transition hover:text-gray-300">
+                            <Link href="/lookbook" className="transition hover:text-gray-300">
                                 Lookbook
                             </Link>
                         </li>
