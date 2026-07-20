@@ -57,11 +57,6 @@ export default function CollectionPage() {
           ))}
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="bg-black text-white py-8 text-center text-sm">
-        © 2026 Nike Store - All Rights Reserved
-      </footer>
     </div>
   );
 }
